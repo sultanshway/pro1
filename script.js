@@ -1,5 +1,3 @@
-alert("hello, Coder Shiyar");
-
 let codes = document.getElementById("codes");
 let play = document.getElementById("play");
 let remove = document.getElementById("remove");

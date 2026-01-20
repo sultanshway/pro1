@@ -1,0 +1,54 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(255, 247, 236);
+}
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 8px;
+}
+nav img{
+    max-width: 70px;
+    max-height: 50px;
+}
+main{
+    text-align: center;
+}
+#codes{
+    width: 90%;
+    min-height: 275px;
+    border-radius: 14px;
+    border: 2px solid rgb(131,131,131);
+    margin-top: 25px;
+}
+#btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+#btn button{
+    width: 35%;
+    border-radius: 10px;
+    border: 0px;
+    padding: 12px;
+    margin-top: 5px;
+}
+#remove{
+    background-color: rgb(255, 30, 30);
+    color: white;
+}
+#play{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+#title-result{
+    padding: 12px;
+    margin: 12px 0px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(131,131,131);
+}
+#result{
+    max-width: 100% !important;
+}
